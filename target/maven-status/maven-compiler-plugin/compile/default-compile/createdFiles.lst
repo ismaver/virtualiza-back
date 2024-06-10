@@ -1,0 +1,9 @@
+com\web\servicios\CORSFilter.class
+com\web\servicios\PathBase.class
+com\web\config\JaegerConfig.class
+com\web\config\JaegerContextListener.class
+com\web\modelo\Calificacion.class
+com\web\servicios\ServicioCalificacion.class
+com\web\dao\DAOCalificacion.class
+com\web\gestion\GestionCalificacion.class
+com\web\servicios\ErrorMessage.class
