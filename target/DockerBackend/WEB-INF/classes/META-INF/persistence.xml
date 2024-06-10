@@ -29,19 +29,14 @@
              Note: the following configuration does not drop the tables on undeploy. If you prefer this, use this
              Hibernate property instead:
              <property name="hibernate.hbm2ddl.auto" value="create-drop" />
-         -->
-         <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://svrdb:5432/calificaciones" />
-            <property name="javax.persistence.jdbc.user" value="admin" />
-            <property name="javax.persistence.jdbc.password" value="admin" />
-            
+         -->       
          
          <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
          <property name="javax.persistence.schema-generation.create-source" value="metadata"/>
          <property name="javax.persistence.schema-generation.drop-source" value="metadata"/>
 
          <!-- Properties for Hibernate -->
-         <property name="hibernate.show_sql" value="false" />
+         <property name="hibernate.show_sql" value="true" />
       </properties>
    </persistence-unit>
 </persistence>
